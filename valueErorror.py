@@ -9,4 +9,4 @@ try:
     print (perse_percentage ("75%"))   
 except ValueError as eroor:
     print(eroor)
-    jhg
+    
