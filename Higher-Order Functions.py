@@ -2,7 +2,8 @@
 def apply_to_all(numbers, action):
     result = []
     for num in numbers:
-         result.append(action(num))
+        result.append(action(num))
+        result
     return result
 
 def double(num):
