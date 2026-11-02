@@ -24,11 +24,13 @@ print(add)
 
 
 # exercise_3
-words = ["banana", "fig", "aherry", "kiwi"]
+words = ["banana", "fig", "cherry", "kiwi"]
 students = [("Dana", 92), ("Avi", 78), ("Noa", 85)]
 sorted_len=(sorted(words, key=len))
 print(sorted_len)
 print(max(sorted_len,key=len))
-best= max(students, key=lambda s:s [1])
-print(best)
+best=sorted(students, key=lambda s:s[1], reverse=True)
+for k in best:
+    print(k[0])
+
 
